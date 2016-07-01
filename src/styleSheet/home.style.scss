@@ -1,0 +1,187 @@
+.home{
+}
+.home .swiper-box{
+  width: 100%;
+  padding-bottom: 55%;
+  height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.home .swiper-box ul,.home .swiper-box li{
+  display: -webkit-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+}
+.home .hot-rec{
+    position: relative;
+}
+.home .hot-rec a{display:block;position: relative;width: 100%;height: 0;padding-bottom: 55%;}
+.home .hot-rec a img{position:relative;width: 100%;}
+.home .hot-rec .hot-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 18px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 63px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+    justify-content: flex-end;
+}
+.home .hot-rec .hot-tit{
+    font-size: 18px;
+    color: #fff;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    line-height: 25px;
+}
+.home .hot-rec .hot-desc{
+    font-size: 13px;
+    color: #fff;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    line-height: 18px;
+}
+.home  .page{
+    position: absolute;
+    right: 18px;
+    bottom: 21px;
+    background-color: #e74c3c;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    box-pack: center;
+}
+.home .list-box{padding: 0 12px;}
+.home .recommend{
+  display:flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+}
+.home .recom-link{
+    display: -webkit-box;
+    display: box;
+    width: 100%;
+    text-decoration: none;
+    padding: 12px 0;
+}
+.home .recom-link.no-border
+{
+  border:none;
+}
+.home .rec-photo{
+    width: 90px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.home .rec-photo img{}
+.home .rec-info{
+    flex: 1;
+    -webkit-box-flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    margin-left: 12px;
+    position: relative;
+}
+.home .rec-info b{
+    font-size: 15px;
+    color: #333333;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+}
+.home.wating .rec-info b:after{
+  content:'';
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 5px;
+  background-color: #f0f0f0;
+}
+.home.wating .rec-info em:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 5px;
+    background-color: #f0f0f0;
+    width: 80%;
+}
+.home.wating .rec-info i:after{
+    display: inline-block;
+    vertical-align: middle;
+    height: 4px;
+    background-color: #f0f0f0;
+    content: '';
+    width: 50px;
+}
+.home .rec-info em{
+    font-style: normal;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+}
+.home .rec-info i{
+    display: box;
+    display: -webkit-box;
+    font-size: 12px;
+    color: #999;
+    -webkit-box-align: center;
+    box-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.home .rec-info i img{
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 4px;
+}
