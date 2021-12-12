@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2015",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "typeRoots": ["./node_modules/@types", "./types", "src/states"],
+    "paths": {
+      "containers/*": ["src/containers/*"],
+      "components/*": ["src/components/*"],
+      "constants/*": ["src/constants/*"],
+      "utils/*": ["src/utils/*"],
+      "states/*": ["src/states/*"],
+      "@utils/*": ["common/utils/*"],
+      "@core/*": ["common/core/*"],
+      "@services/*": ["common/services/*"],
+      "@store": ["src/store/index"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src", "./types"]
+}
